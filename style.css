@@ -1,0 +1,19 @@
+body {
+  background-color: lightgrey;
+  margin-left: 35%;
+  margin-right: 35%;
+  text-align: center;
+}
+
+section {
+  background-color: white;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: firebrick;
+}
+
+.liste {
+  list-style: none;
+}
