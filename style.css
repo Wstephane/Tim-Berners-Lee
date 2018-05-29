@@ -10,10 +10,23 @@ section {
   margin-bottom: 0;
 }
 
+.prez {
+  height: 50vh;
+}
+
+.prez img {
+
+}
+
 h1 {
   color: firebrick;
 }
 
 .liste {
   list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 30px 30px 30px 30px;
 }
