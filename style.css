@@ -25,15 +25,16 @@ h1 {
 }
 
 .prez-image {
+  border-radius: 100%;
+  border: solid 4px #ebebeb;
   margin: auto;
   width: 150px;
+  height: 150px;
   overflow: hidden;
 }
 
 .prez-image img {
-  width: 120px;
-  border-radius: 200px;
-  border: solid 3px #ebebeb;
+  width: 100%;
 }
 
 .prez button {
