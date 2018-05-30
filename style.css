@@ -1,5 +1,9 @@
 body {
-  background-color: lightgrey;
+  background-color: #ebebeb;
+  color: #7d7d7d;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
   margin-left: 35%;
   margin-right: 35%;
   text-align: center;
@@ -10,16 +14,30 @@ section {
   margin-bottom: 0;
 }
 
-.prez {
-  height: 50vh;
-}
-
-.prez img {
-
-}
-
 h1 {
-  color: firebrick;
+  color: #dd5555;
+}
+
+.prez {
+  height: 52vh;
+}
+
+.prez-image {
+  border-radius: 50px;
+  position: relative;
+}
+
+.prez button {
+  background-color: #dd5555;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.warp-liste {
+  height: 16vh;
+  padding-top: 20px;
 }
 
 .liste {
@@ -29,4 +47,30 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   padding: 30px 30px 30px 30px;
+}
+
+.movies {
+  height: 65vh;
+}
+
+.movies h2{
+  margin-bottom: 50px;
+}
+
+.movies img {
+  height: 130px;
+  width: 90px;
+  float: left;
+  clear: left;
+  margin: 20px;
+  position: sticky;
+}
+
+.movies h3 {
+  margin-bottom: 50px;
+}
+
+.movies p {
+  margin-bottom: 50px;
+  text-align: left;
 }
