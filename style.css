@@ -50,9 +50,20 @@ h1 {
 
 .warp-liste {
   height: 14vh;
-  padding-top: 20px;
+  padding-top: 30px;
+  padding-top: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.wrap-list-facebook, .wrap-list-linkedin, .wrap-list-twitter {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap-list-facebook * .wrap-list-linkedin * .wrap-list-twitter {
+  flex: 1;
+
 }
 
 .liste {
@@ -61,12 +72,15 @@ h1 {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding: 30px 30px 30px 30px;
 }
 
 li {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+ul {
+  display: inline-block;
 }
 
 .movies {
@@ -76,7 +90,8 @@ li {
 }
 
 .movies h2 {
-
+  padding-top: 50px;
+  padding-bottom: 30px;
 }
 
 .movies h3 {
@@ -99,5 +114,14 @@ li {
 }
 
 #His {
-  background-color: grey;
+  background-color: #ebebeb;
+}
+
+a:link, a:visited, a:hover, a:active {
+  opacity: 0.5;
+  text-decoration: none;
+}
+
+.fa-facebook-f, .fa-linkedin-in, .fa-twitter {
+  opacity: 0.1;
 }
