@@ -21,7 +21,10 @@ h1 {
 }
 
 .prez {
-  height: 52vh;
+  height: 40vh;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-top: 20px;
 }
 
 .prez-image {
@@ -46,8 +49,10 @@ h1 {
 }
 
 .warp-liste {
-  height: 16vh;
+  height: 14vh;
   padding-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .liste {
@@ -59,8 +64,15 @@ h1 {
   padding: 30px 30px 30px 30px;
 }
 
+li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
 .movies {
   height: 62vh;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .movies h2 {
@@ -84,4 +96,8 @@ h1 {
 .movies p {
   margin-bottom: 50px;
   text-align: left;
+}
+
+#His {
+  background-color: grey;
 }
